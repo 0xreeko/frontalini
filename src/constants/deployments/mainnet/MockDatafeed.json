@@ -1,0 +1,338 @@
+{
+  "address": "0x8B4Cb9fBFBe31934e060581389811a0477023F10",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_basePrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint8",
+          "name": "__decimals",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_variation",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "indexed": false,
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "name": "roundData",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint80",
+          "name": "id",
+          "type": "uint80"
+        }
+      ],
+      "name": "_getRound",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "_random",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "basePrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "description",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "exec",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint80",
+          "name": "_roundId",
+          "type": "uint80"
+        }
+      ],
+      "name": "getRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "latestRoundData",
+      "outputs": [
+        {
+          "internalType": "uint80",
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "internalType": "int256",
+          "name": "answer",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "startedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "updatedAt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint80",
+          "name": "answeredInRound",
+          "type": "uint80"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "version",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xdfe9711bf0cd1925e8f0996f056af10cefa9ca1a31833de4d3fe3d95897c23c3",
+  "receipt": {
+    "to": null,
+    "from": "0x80e570Dd431F89752D00EdF395be3BCb0d11db14",
+    "contractAddress": "0x8B4Cb9fBFBe31934e060581389811a0477023F10",
+    "transactionIndex": 0,
+    "gasUsed": "492588",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000108000000000000000000000000000000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000002000000000000000000000000000000000000200200000040000100000000000000000000000000000000000000000000000004000000000000000000001000000000000000000000000000000100000000000000000000000000000000000000000000080000000000000000000000000100000",
+    "blockHash": "0x4eda881fb4cd890b29ec4768e01ce087d9505f76ffe731ad35300d459c6fe5e4",
+    "transactionHash": "0xdfe9711bf0cd1925e8f0996f056af10cefa9ca1a31833de4d3fe3d95897c23c3",
+    "logs": [
+      {
+        "transactionIndex": 0,
+        "blockNumber": 26349671,
+        "transactionHash": "0xdfe9711bf0cd1925e8f0996f056af10cefa9ca1a31833de4d3fe3d95897c23c3",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x00000000000000000000000080e570dd431f89752d00edf395be3bcb0d11db14",
+          "0x00000000000000000000000026c80cc193b27d73d2c40943acec77f4da2c5bd8"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000015e013c08080e780000000000000000000000000000000000000000000000120abe8c4aa661402f000000000000000000000000000000000000000000000ed328920d290092bd9d00000000000000000000000000000000000000000000001209608b0e9e5931b7000000000000000000000000000000000000000000000ed329f00e65089acc15",
+        "logIndex": 0,
+        "blockHash": "0x4eda881fb4cd890b29ec4768e01ce087d9505f76ffe731ad35300d459c6fe5e4"
+      }
+    ],
+    "blockNumber": 26349671,
+    "cumulativeGasUsed": "492588",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    40000,
+    8,
+    10000
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "92ac373d87f885261fc63abe3398d476",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_basePrice\",\"type\":\"uint256\"},{\"internalType\":\"uint8\",\"name\":\"__decimals\",\"type\":\"uint8\"},{\"internalType\":\"uint256\",\"name\":\"_variation\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"indexed\":false,\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"name\":\"roundData\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint80\",\"name\":\"id\",\"type\":\"uint80\"}],\"name\":\"_getRound\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_random\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"basePrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"description\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"exec\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint80\",\"name\":\"_roundId\",\"type\":\"uint80\"}],\"name\":\"getRoundData\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"latestRoundData\",\"outputs\":[{\"internalType\":\"uint80\",\"name\":\"roundId\",\"type\":\"uint80\"},{\"internalType\":\"int256\",\"name\":\"answer\",\"type\":\"int256\"},{\"internalType\":\"uint256\",\"name\":\"startedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"updatedAt\",\"type\":\"uint256\"},{\"internalType\":\"uint80\",\"name\":\"answeredInRound\",\"type\":\"uint80\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"version\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/mock/MockDatafeed.sol\":\"MockDatafeed\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[]},\"sources\":{\"contracts/mock/MockDatafeed.sol\":{\"content\":\"pragma solidity ^0.8.0;\\r\\n\\r\\n/**\\r\\nThis contract emulates the behavior of a price datafeed\\r\\n\\r\\n */\\r\\ninterface AggregatorV3Interface {\\r\\n\\r\\n    function decimals()\\r\\n    external\\r\\n    view\\r\\n    returns (\\r\\n      uint8\\r\\n    );\\r\\n\\r\\n  function description()\\r\\n    external\\r\\n    view\\r\\n    returns (\\r\\n      string memory\\r\\n    );\\r\\n\\r\\n  function version()\\r\\n    external\\r\\n    view\\r\\n    returns (\\r\\n      uint256\\r\\n    );\\r\\n\\r\\n  // getRoundData and latestRoundData should both raise \\\"No data present\\\"\\r\\n  // if they do not have data to report, instead of returning unset values\\r\\n  // which could be misinterpreted as actual reported values.\\r\\n  function getRoundData(\\r\\n    uint80 _roundId\\r\\n  )\\r\\n    external\\r\\n    view\\r\\n    returns (\\r\\n      uint80 roundId,\\r\\n      int256 answer,\\r\\n      uint256 startedAt,\\r\\n      uint256 updatedAt,\\r\\n      uint80 answeredInRound\\r\\n    );\\r\\n\\r\\n  function latestRoundData()\\r\\n    external\\r\\n    view\\r\\n    returns (\\r\\n      uint80 roundId,\\r\\n      int256 answer,\\r\\n      uint256 startedAt,\\r\\n      uint256 updatedAt,\\r\\n      uint80 answeredInRound\\r\\n    );\\r\\n\\r\\n}\\r\\n\\r\\n/***\\r\\n* @title Mock Data Feed - Price data feed emulation\\r\\n* It provides random numbers between a range stated by \\r\\n* basePrice, variation and decimals\\r\\n*                                     decimals\\r\\n*       result= basePrice+variation*10\\r\\n*\\r\\n */\\r\\ncontract MockDatafeed is AggregatorV3Interface{\\r\\n    \\r\\n    uint public basePrice; \\r\\n    uint8 _decimals;\\r\\n    uint variation;\\r\\n\\r\\n    /*** \\r\\n    * @param _basePrice Base price\\r\\n    * @param __decimals Number of decimals used\\r\\n    * @param _variation Variation margin\\r\\n    * price=_initialPrice+random(0..._variation)\\r\\n    */ \\r\\n    constructor(uint _basePrice, uint8 __decimals, uint _variation){\\r\\n      _decimals=__decimals;\\r\\n      basePrice=_basePrice;\\r\\n      variation=_variation;\\r\\n    }\\r\\n    /***  Decimalsd\\r\\n    * @return configured decimals\\r\\n    */ \\r\\n    function decimals()\\r\\n    external override\\r\\n    view\\r\\n    returns (\\r\\n      uint8\\r\\n    ){\\r\\n        return _decimals;\\r\\n    }\\r\\n\\r\\n  function description()\\r\\n    external override\\r\\n    view\\r\\n    returns (\\r\\n      string memory\\r\\n    ){\\r\\n        return \\\"Mock oracle\\\";\\r\\n    }\\r\\n\\r\\n\\r\\n  function version()\\r\\n    external override\\r\\n    view\\r\\n    returns (\\r\\n      uint256\\r\\n    ){\\r\\n        return 2;\\r\\n    }\\r\\n\\r\\n    function getRoundData(\\r\\n    uint80 _roundId\\r\\n  )\\r\\n    external override\\r\\n    view\\r\\n    returns (\\r\\n      uint80 roundId,\\r\\n      int256 answer,\\r\\n      uint256 startedAt,\\r\\n      uint256 updatedAt,\\r\\n      uint80 answeredInRound\\r\\n    ){\\r\\n        return _getRound(_roundId);\\r\\n    }\\r\\n\\r\\n  function latestRoundData()\\r\\n    public override\\r\\n    view\\r\\n    returns (\\r\\n      uint80 roundId,\\r\\n      int256 answer,\\r\\n      uint256 startedAt,\\r\\n      uint256 updatedAt,\\r\\n      uint80 answeredInRound\\r\\n    ){\\r\\n        return _getRound(uint80(block.number));\\r\\n    }\\r\\n\\r\\n  function _random() public view returns(int256){\\r\\n        // DO NOT USE THIS IN PRODUCTION!!!!!!!!\\r\\n        uint256 random=uint(blockhash(block.number-1)) % uint(variation); \\r\\n         require(random>=0,\\\"Random must be greater than 0\\\");\\r\\n         require(random<=variation,\\\"Random must be lower than variation parameter\\\");\\r\\n        //return int(random);\\r\\n        int256 result= int256(basePrice+random);\\r\\n        require(result>=0,\\\"Result must be greater than 0\\\");\\r\\n        int32 calculatedDecimals=int32(uint32(10)**uint32(_decimals));\\r\\n        return (result * int256(calculatedDecimals));\\r\\n    }\\r\\n\\r\\n    function _getRound(uint80 id) public view  \\r\\n    returns (\\r\\n      uint80 roundId,\\r\\n      int256 answer,\\r\\n      uint256 startedAt,\\r\\n      uint256 updatedAt,\\r\\n      uint80 answeredInRound\\r\\n    )\\r\\n    {\\r\\n      roundId=id;\\r\\n      answer=_random();\\r\\n      startedAt=block.timestamp;\\r\\n      updatedAt=block.timestamp;\\r\\n      answeredInRound=id;\\r\\n    }\\r\\n\\r\\n    event roundData(uint80 roundId,int256 answer, uint256 startedAt, uint256 updatedAt,uint80 answeredInRound);\\r\\n    function exec() public {\\r\\n      (\\r\\n        uint80 _roundId,\\r\\n        int256 _answer,\\r\\n        uint256 _startedAt,\\r\\n        uint256 _updatedAt,\\r\\n        uint80 _answeredInRound\\r\\n      )=latestRoundData();\\r\\n      emit roundData(_roundId, _answer, _startedAt, _updatedAt, _answeredInRound);\\r\\n\\r\\n    }\\r\\n\\r\\n}\",\"keccak256\":\"0xe73fc43d01a86aed6ed9f6a4d38ed0c95efb1492807be9c8207b75d4fc7e2d52\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161075538038061075583398101604081905261002f91610052565b6001805460ff191660ff939093169290921790915560009190915560025561008f565b600080600060608486031215610066578283fd5b83519250602084015160ff8116811461007d578283fd5b80925050604084015190509250925092565b6106b78061009e6000396000f3fe608060405234801561001057600080fd5b50600436106100a35760003560e01c80639a6fc8f511610076578063c1c0e9c41161005b578063c1c0e9c41461017b578063c7876ea414610185578063feaf968c1461018e57600080fd5b80639a6fc8f51461011e578063b193c4741461016857600080fd5b806306748fb1146100a8578063313ce567146100c357806354fd4d50146100d85780637284e416146100df575b600080fd5b6100b0610196565b6040519081526020015b60405180910390f35b60015460405160ff90911681526020016100ba565b60026100b0565b604080518082018252600b81527f4d6f636b206f7261636c65000000000000000000000000000000000000000000602082015290516100ba91906103e1565b61013161012c3660046103b0565b6102cb565b6040805169ffffffffffffffffffff968716815260208101959095528401929092526060830152909116608082015260a0016100ba565b6101316101763660046103b0565b6102ee565b61018361030d565b005b6100b060005481565b61013161038e565b6000806002546001436101a99190610634565b6101b491904061064b565b90506101c4565b60405180910390fd5b60025481111561023c5760405162461bcd60e51b815260206004820152602d60248201527f52616e646f6d206d757374206265206c6f776572207468616e2076617269617460448201527f696f6e20706172616d657465720000000000000000000000000000000000000060648201526084016101bb565b60008160005461024c9190610434565b9050600081121561029f5760405162461bcd60e51b815260206004820152601d60248201527f526573756c74206d7573742062652067726561746572207468616e203000000060448201526064016101bb565b6001546000906102b39060ff16600a610491565b90506102c3600382900b8361057c565b935050505090565b60008060008060006102dc866102ee565b939a9299509097509550909350915050565b8060008080806102fc610196565b949694954295869550909350915050565b600080600080600061031d61038e565b6040805169ffffffffffffffffffff808816825260208201879052918101859052606081018490529082166080820152949950929750909550935091507f4039c5377a52afe37224a541394178d106645aee16b3da5173b38688c04b6c5e9060a00160405180910390a15050505050565b600080600080600061039f436102ee565b945094509450945094509091929394565b6000602082840312156103c1578081fd5b813569ffffffffffffffffffff811681146103da578182fd5b9392505050565b6000602080835283518082850152825b8181101561040d578581018301518582016040015282016103f1565b8181111561041e5783604083870101525b50601f01601f1916929092016040019392505050565b600082198211156104475761044761066b565b500190565b600181815b80851115610489578163ffffffff0482111561046f5761046f61066b565b8085161561047c57918102915b93841c9390800290610451565b509250929050565b600063ffffffff6104a68185168285166104ae565b949350505050565b6000826104bd57506001610576565b816104ca57506000610576565b81600181146104e057600281146104ea5761051b565b6001915050610576565b60ff8411156104fb576104fb61066b565b6001841b915063ffffffff8211156105155761051561066b565b50610576565b5060208310610133831016604e8410600b8410161715610552575081810a63ffffffff81111561054d5761054d61066b565b610576565b61055c838361044c565b8063ffffffff048211156105725761057261066b565b0290505b92915050565b60007f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff818413828413858304851182821616156105bb576105bb61066b565b7f8000000000000000000000000000000000000000000000000000000000000000848712868205881281841616156105f5576105f561066b565b8587129250878205871284841616156106105761061061066b565b878505871281841616156106265761062661066b565b505050929093029392505050565b6000828210156106465761064661066b565b500390565b60008261066657634e487b7160e01b81526012600452602481fd5b500690565b634e487b7160e01b600052601160045260246000fdfea2646970667358221220b1764679ffc00572cab9b739004135222b500734d5c2d94b00d2a2f64ae0fb5664736f6c63430008040033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100a35760003560e01c80639a6fc8f511610076578063c1c0e9c41161005b578063c1c0e9c41461017b578063c7876ea414610185578063feaf968c1461018e57600080fd5b80639a6fc8f51461011e578063b193c4741461016857600080fd5b806306748fb1146100a8578063313ce567146100c357806354fd4d50146100d85780637284e416146100df575b600080fd5b6100b0610196565b6040519081526020015b60405180910390f35b60015460405160ff90911681526020016100ba565b60026100b0565b604080518082018252600b81527f4d6f636b206f7261636c65000000000000000000000000000000000000000000602082015290516100ba91906103e1565b61013161012c3660046103b0565b6102cb565b6040805169ffffffffffffffffffff968716815260208101959095528401929092526060830152909116608082015260a0016100ba565b6101316101763660046103b0565b6102ee565b61018361030d565b005b6100b060005481565b61013161038e565b6000806002546001436101a99190610634565b6101b491904061064b565b90506101c4565b60405180910390fd5b60025481111561023c5760405162461bcd60e51b815260206004820152602d60248201527f52616e646f6d206d757374206265206c6f776572207468616e2076617269617460448201527f696f6e20706172616d657465720000000000000000000000000000000000000060648201526084016101bb565b60008160005461024c9190610434565b9050600081121561029f5760405162461bcd60e51b815260206004820152601d60248201527f526573756c74206d7573742062652067726561746572207468616e203000000060448201526064016101bb565b6001546000906102b39060ff16600a610491565b90506102c3600382900b8361057c565b935050505090565b60008060008060006102dc866102ee565b939a9299509097509550909350915050565b8060008080806102fc610196565b949694954295869550909350915050565b600080600080600061031d61038e565b6040805169ffffffffffffffffffff808816825260208201879052918101859052606081018490529082166080820152949950929750909550935091507f4039c5377a52afe37224a541394178d106645aee16b3da5173b38688c04b6c5e9060a00160405180910390a15050505050565b600080600080600061039f436102ee565b945094509450945094509091929394565b6000602082840312156103c1578081fd5b813569ffffffffffffffffffff811681146103da578182fd5b9392505050565b6000602080835283518082850152825b8181101561040d578581018301518582016040015282016103f1565b8181111561041e5783604083870101525b50601f01601f1916929092016040019392505050565b600082198211156104475761044761066b565b500190565b600181815b80851115610489578163ffffffff0482111561046f5761046f61066b565b8085161561047c57918102915b93841c9390800290610451565b509250929050565b600063ffffffff6104a68185168285166104ae565b949350505050565b6000826104bd57506001610576565b816104ca57506000610576565b81600181146104e057600281146104ea5761051b565b6001915050610576565b60ff8411156104fb576104fb61066b565b6001841b915063ffffffff8211156105155761051561066b565b50610576565b5060208310610133831016604e8410600b8410161715610552575081810a63ffffffff81111561054d5761054d61066b565b610576565b61055c838361044c565b8063ffffffff048211156105725761057261066b565b0290505b92915050565b60007f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff818413828413858304851182821616156105bb576105bb61066b565b7f8000000000000000000000000000000000000000000000000000000000000000848712868205881281841616156105f5576105f561066b565b8587129250878205871284841616156106105761061061066b565b878505871281841616156106265761062661066b565b505050929093029392505050565b6000828210156106465761064661066b565b500390565b60008261066657634e487b7160e01b81526012600452602481fd5b500690565b634e487b7160e01b600052601160045260246000fdfea2646970667358221220b1764679ffc00572cab9b739004135222b500734d5c2d94b00d2a2f64ae0fb5664736f6c63430008040033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 50,
+        "contract": "contracts/mock/MockDatafeed.sol:MockDatafeed",
+        "label": "basePrice",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 52,
+        "contract": "contracts/mock/MockDatafeed.sol:MockDatafeed",
+        "label": "_decimals",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint8"
+      },
+      {
+        "astId": 54,
+        "contract": "contracts/mock/MockDatafeed.sol:MockDatafeed",
+        "label": "variation",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      },
+      "t_uint8": {
+        "encoding": "inplace",
+        "label": "uint8",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}

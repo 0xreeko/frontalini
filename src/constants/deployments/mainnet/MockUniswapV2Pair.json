@@ -1,0 +1,165 @@
+{
+  "address": "0x618560902f7f86CEeAd0174376A6dA4eCa445151",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "_totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getReserves",
+      "outputs": [
+        {
+          "internalType": "uint112",
+          "name": "reserve0",
+          "type": "uint112"
+        },
+        {
+          "internalType": "uint112",
+          "name": "reserve1",
+          "type": "uint112"
+        },
+        {
+          "internalType": "uint32",
+          "name": "blockTimestampLast",
+          "type": "uint32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "reserveBold",
+      "outputs": [
+        {
+          "internalType": "uint112",
+          "name": "",
+          "type": "uint112"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_totalSupply_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint112",
+          "name": "_reserveBold_",
+          "type": "uint112"
+        }
+      ],
+      "name": "setParams",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x85f97cf20e519a8ae7f8d56253aa42d4a3539f276a684183edfa9955e5266ce8",
+  "receipt": {
+    "to": null,
+    "from": "0x80e570Dd431F89752D00EdF395be3BCb0d11db14",
+    "contractAddress": "0x618560902f7f86CEeAd0174376A6dA4eCa445151",
+    "transactionIndex": 17,
+    "gasUsed": "192525",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000800000000000000000000100000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000002000000000000000000000000000000000000200200000000000000000000000000000000000000000000000000000000000004000800000000000000001000000008000000000000000000000100000000000000000020000000000000000000000000080000000000000000000000000100000",
+    "blockHash": "0xfcccbb916ab0764de676f510799ef4f9a0fa3bc2479a0cdcfb8f7f797d169df6",
+    "transactionHash": "0x85f97cf20e519a8ae7f8d56253aa42d4a3539f276a684183edfa9955e5266ce8",
+    "logs": [
+      {
+        "transactionIndex": 17,
+        "blockNumber": 26349750,
+        "transactionHash": "0x85f97cf20e519a8ae7f8d56253aa42d4a3539f276a684183edfa9955e5266ce8",
+        "address": "0x0000000000000000000000000000000000001010",
+        "topics": [
+          "0x4dfe1bbbcf077ddc3e01291eea2d5c70c2b422b415d95645b9adcfd678cb1d63",
+          "0x0000000000000000000000000000000000000000000000000000000000001010",
+          "0x00000000000000000000000080e570dd431f89752d00edf395be3bcb0d11db14",
+          "0x00000000000000000000000067b94473d81d0cd00849d563c94d0432ac988b49"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000088cc177cf136ee000000000000000000000000000000000000000000000011e3b0492fbe00902f000000000000000000000000000000000000000000003779605fde2af06ffa50000000000000000000000000000000000000000000000011e3277d18410f594100000000000000000000000000000000000000000000377960e8aa426d61313e",
+        "logIndex": 107,
+        "blockHash": "0xfcccbb916ab0764de676f510799ef4f9a0fa3bc2479a0cdcfb8f7f797d169df6"
+      }
+    ],
+    "blockNumber": 26349750,
+    "cumulativeGasUsed": "4254000",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "ab20f7579c850e0fbcbcfcb1ce50b5a1",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"_totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getReserves\",\"outputs\":[{\"internalType\":\"uint112\",\"name\":\"reserve0\",\"type\":\"uint112\"},{\"internalType\":\"uint112\",\"name\":\"reserve1\",\"type\":\"uint112\"},{\"internalType\":\"uint32\",\"name\":\"blockTimestampLast\",\"type\":\"uint32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"reserveBold\",\"outputs\":[{\"internalType\":\"uint112\",\"name\":\"\",\"type\":\"uint112\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_totalSupply_\",\"type\":\"uint256\"},{\"internalType\":\"uint112\",\"name\":\"_reserveBold_\",\"type\":\"uint112\"}],\"name\":\"setParams\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/mock/MockUniswapV2Pair.sol\":\"MockUniswapV2Pair\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[]},\"sources\":{\"contracts/interface/IUniswapV2Pair.sol\":{\"content\":\"pragma solidity >=0.8.0;\\r\\n\\r\\ninterface IUniswapV2Pair {\\r\\n    // Only functions needed for calculations\\r\\n    function totalSupply() external view returns (uint);\\r\\n  \\r\\n    // Only functions needed for calculations\\r\\n    function getReserves() external view returns (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast);\\r\\n  \\r\\n}\\r\\n\",\"keccak256\":\"0x6f87715e6cbf2715e25a39d845f8731bef99603aa5877625a3b0c90c9a1716bf\"},\"contracts/mock/MockUniswapV2Pair.sol\":{\"content\":\"pragma solidity ^0.8.0;\\r\\n\\r\\nimport \\\"../interface/IUniswapV2Pair.sol\\\";\\r\\n\\r\\n\\r\\ncontract MockUniswapV2Pair is IUniswapV2Pair{\\r\\n\\r\\n    uint public _totalSupply=1000;\\r\\n    uint112 public reserveBold=10;\\r\\n    \\r\\n\\r\\n  // Only functions needed for calculations\\r\\n    function totalSupply() override external view returns (uint){\\r\\n        return _totalSupply;\\r\\n    }\\r\\n  \\r\\n    // Only functions needed for calculations\\r\\n    function getReserves() override external view returns (uint112 reserve0, uint112 reserve1, uint32 blockTimestampLast){\\r\\n        return (\\r\\n            0,\\r\\n            reserveBold,\\r\\n            uint32(block.timestamp)\\r\\n        );\\r\\n    }\\r\\n\\r\\n\\r\\n    function setParams(uint _totalSupply_, uint112 _reserveBold_) public {\\r\\n        _totalSupply=_totalSupply_;\\r\\n        reserveBold=_reserveBold_;\\r\\n    }\\r\\n\\r\\n\\r\\n\\r\\n}\",\"keccak256\":\"0x559043f9b2bdf0cab71658e1f0929aab05b2efd66fd8b929ebbe64e141031858\"}},\"version\":1}",
+  "bytecode": "0x60806040526103e8600055600180546001600160701b031916600a17905534801561002957600080fd5b506101b6806100396000396000f3fe608060405234801561001057600080fd5b50600436106100675760003560e01c80633eaaf86b116100505780633eaaf86b146100b857806385e702df146100c15780638650f2bc146100fa57600080fd5b80630902f1ac1461006c57806318160ddd146100a6575b600080fd5b60015460408051600081526dffffffffffffffffffffffffffff909216602083015263ffffffff4216908201526060015b60405180910390f35b6000545b60405190815260200161009d565b6100aa60005481565b6001546100db906dffffffffffffffffffffffffffff1681565b6040516dffffffffffffffffffffffffffff909116815260200161009d565b61013d61010836600461013f565b600091909155600180546dffffffffffffffffffffffffffff19166dffffffffffffffffffffffffffff909216919091179055565b005b60008060408385031215610151578182fd5b8235915060208301356dffffffffffffffffffffffffffff81168114610175578182fd5b80915050925092905056fea264697066735822122066245f9e30574f88cd9741a2b5bdb0bdf6bd18f28cf585ce44768693001eadd764736f6c63430008040033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100675760003560e01c80633eaaf86b116100505780633eaaf86b146100b857806385e702df146100c15780638650f2bc146100fa57600080fd5b80630902f1ac1461006c57806318160ddd146100a6575b600080fd5b60015460408051600081526dffffffffffffffffffffffffffff909216602083015263ffffffff4216908201526060015b60405180910390f35b6000545b60405190815260200161009d565b6100aa60005481565b6001546100db906dffffffffffffffffffffffffffff1681565b6040516dffffffffffffffffffffffffffff909116815260200161009d565b61013d61010836600461013f565b600091909155600180546dffffffffffffffffffffffffffff19166dffffffffffffffffffffffffffff909216919091179055565b005b60008060408385031215610151578182fd5b8235915060208301356dffffffffffffffffffffffffffff81168114610175578182fd5b80915050925092905056fea264697066735822122066245f9e30574f88cd9741a2b5bdb0bdf6bd18f28cf585ce44768693001eadd764736f6c63430008040033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 16923,
+        "contract": "contracts/mock/MockUniswapV2Pair.sol:MockUniswapV2Pair",
+        "label": "_totalSupply",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 16926,
+        "contract": "contracts/mock/MockUniswapV2Pair.sol:MockUniswapV2Pair",
+        "label": "reserveBold",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint112"
+      }
+    ],
+    "types": {
+      "t_uint112": {
+        "encoding": "inplace",
+        "label": "uint112",
+        "numberOfBytes": "14"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

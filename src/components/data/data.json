@@ -1,0 +1,93 @@
+    {
+        "leftMenu": [
+        {
+            "id": 1,
+            "name": "Games",
+            "href": "/",
+            "text": "Games",
+            "description": "OneFortune Games",
+            "external": false,
+            "break": false
+        },
+        {
+            "id": 2,
+            "name": "Staking",
+            "href": "/staking",
+            "text": "Staking",
+            "description": "Stake BOLD to earn BOLD",
+            "external": false,
+            "break": false
+        },
+        {
+            "id": 3,
+            "name": "buyBold",
+            "href": "https://info.quickswap.exchange/#/token/",
+            "text": "Buy BOLD",
+            "description": "Buy BOLD tokens on QuickSwap",
+            "external": true,
+            "break": true
+        },
+        {
+            "id": 4,
+            "name": "oneFortune",
+            "href": "https://onefortune.com",
+            "text": "Onefortune.com",
+            "description": "Back to the OneFortune site",
+            "external": true,
+            "break": false
+        },
+        {
+            "id": 5,
+            "name": "About",
+            "href": "https://onefortune.com/about",
+            "text": "About",
+            "description": "More info about the OneFortune platform",
+            "external": true,
+            "break": false
+        },
+        {
+            "id": 6,
+            "name": "Roadmap",
+            "href": "https://onefortune.com/roadmap",
+            "text": "Roadmap",
+            "description": "OneFortune Roadmap",
+            "external": true,
+            "break": false
+        },
+        {
+            "id": 7,
+            "name": "Faqs",
+            "href": "https://docs.onefortune.com",
+            "text": "FAQs",
+            "description": "OneFortune Frequently Asked Questions",
+            "external": true,
+            "break": true
+        }
+    ],
+        "leftMenuSocials": [
+        {
+            "id": 1,
+            "name": "Medium",
+            "href": "https://medium.com/@onefortunesocial",
+            "text": "Medium",
+            "img": "/images/menu/medium.png",
+            "external": true
+        },
+        {
+            "id": 2,
+            "name": "Discord",
+            "href": "https://discord.gg/bykn32jKeq",
+            "text": "Discord",
+            "img": "/images/menu/discord.png",
+            "external": true
+        },
+        {
+            "id": 3,
+            "name": "Twitter",
+            "href": "https://twitter.com/onefortune_",
+            "text": "Twitter",
+            "img": "/images/menu/twitter.png",
+            "external": true
+        }
+        ]
+    }

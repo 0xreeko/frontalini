@@ -1,0 +1,64 @@
+.theGamesBack {
+    width: 100%;
+    background-size: auto;
+    background: url(/images/home/theGames.svg) no-repeat center, linear-gradient(
+        180deg, #1C1E2A 12.34%, #1B1D27 16.96%, #2E3652 44.11%, #1C1E29 70.67%, #1C1E2A 85.2%
+    );
+    height: calc(100% - 40px);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+.stakingBack {
+  width: 100%;
+  background-size: auto;
+  background: url(/images/home/staking.svg) no-repeat center, linear-gradient(
+      180deg, #1C1E2A 12.34%, #1B1D27 16.96%, #2E3652 44.11%, #1C1E29 70.67%, #1C1E2A 85.2%
+  );
+  height: calc(100% - 40px);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444b54; 
+  border-radius: 2px;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.Toastify__toast-theme--light{
+  background: #131E2B !important;
+}
+.Toastify__close-button--light{
+  color: #F0EFEE !important
+}
+.Toastify__progress-bar-theme--light{
+  background: #E3122D !important;
+}
+.swiper-slide{
+  display: flex;
+}

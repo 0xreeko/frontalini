@@ -1,0 +1,35 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/mock/MockDatafeed.sol": {
+      "content": "pragma solidity ^0.8.0;\r\n\r\n/**\r\nThis contract emulates the behavior of a price datafeed\r\n\r\n */\r\ninterface AggregatorV3Interface {\r\n\r\n    function decimals()\r\n    external\r\n    view\r\n    returns (\r\n      uint8\r\n    );\r\n\r\n  function description()\r\n    external\r\n    view\r\n    returns (\r\n      string memory\r\n    );\r\n\r\n  function version()\r\n    external\r\n    view\r\n    returns (\r\n      uint256\r\n    );\r\n\r\n  // getRoundData and latestRoundData should both raise \"No data present\"\r\n  // if they do not have data to report, instead of returning unset values\r\n  // which could be misinterpreted as actual reported values.\r\n  function getRoundData(\r\n    uint80 _roundId\r\n  )\r\n    external\r\n    view\r\n    returns (\r\n      uint80 roundId,\r\n      int256 answer,\r\n      uint256 startedAt,\r\n      uint256 updatedAt,\r\n      uint80 answeredInRound\r\n    );\r\n\r\n  function latestRoundData()\r\n    external\r\n    view\r\n    returns (\r\n      uint80 roundId,\r\n      int256 answer,\r\n      uint256 startedAt,\r\n      uint256 updatedAt,\r\n      uint80 answeredInRound\r\n    );\r\n\r\n}\r\n\r\n/***\r\n* @title Mock Data Feed - Price data feed emulation\r\n* It provides random numbers between a range stated by \r\n* basePrice, variation and decimals\r\n*                                     decimals\r\n*       result= basePrice+variation*10\r\n*\r\n */\r\ncontract MockDatafeed is AggregatorV3Interface{\r\n    \r\n    uint public basePrice; \r\n    uint8 _decimals;\r\n    uint variation;\r\n\r\n    /*** \r\n    * @param _basePrice Base price\r\n    * @param __decimals Number of decimals used\r\n    * @param _variation Variation margin\r\n    * price=_initialPrice+random(0..._variation)\r\n    */ \r\n    constructor(uint _basePrice, uint8 __decimals, uint _variation){\r\n      _decimals=__decimals;\r\n      basePrice=_basePrice;\r\n      variation=_variation;\r\n    }\r\n    /***  Decimalsd\r\n    * @return configured decimals\r\n    */ \r\n    function decimals()\r\n    external override\r\n    view\r\n    returns (\r\n      uint8\r\n    ){\r\n        return _decimals;\r\n    }\r\n\r\n  function description()\r\n    external override\r\n    view\r\n    returns (\r\n      string memory\r\n    ){\r\n        return \"Mock oracle\";\r\n    }\r\n\r\n\r\n  function version()\r\n    external override\r\n    view\r\n    returns (\r\n      uint256\r\n    ){\r\n        return 2;\r\n    }\r\n\r\n    function getRoundData(\r\n    uint80 _roundId\r\n  )\r\n    external override\r\n    view\r\n    returns (\r\n      uint80 roundId,\r\n      int256 answer,\r\n      uint256 startedAt,\r\n      uint256 updatedAt,\r\n      uint80 answeredInRound\r\n    ){\r\n        return _getRound(_roundId);\r\n    }\r\n\r\n  function latestRoundData()\r\n    public override\r\n    view\r\n    returns (\r\n      uint80 roundId,\r\n      int256 answer,\r\n      uint256 startedAt,\r\n      uint256 updatedAt,\r\n      uint80 answeredInRound\r\n    ){\r\n        return _getRound(uint80(block.number));\r\n    }\r\n\r\n  function _random() public view returns(int256){\r\n        // DO NOT USE THIS IN PRODUCTION!!!!!!!!\r\n        uint256 random=uint(blockhash(block.number-1)) % uint(variation); \r\n         require(random>=0,\"Random must be greater than 0\");\r\n         require(random<=variation,\"Random must be lower than variation parameter\");\r\n        //return int(random);\r\n        int256 result= int256(basePrice+random);\r\n        require(result>=0,\"Result must be greater than 0\");\r\n        int32 calculatedDecimals=int32(uint32(10)**uint32(_decimals));\r\n        return (result * int256(calculatedDecimals));\r\n    }\r\n\r\n    function _getRound(uint80 id) public view  \r\n    returns (\r\n      uint80 roundId,\r\n      int256 answer,\r\n      uint256 startedAt,\r\n      uint256 updatedAt,\r\n      uint80 answeredInRound\r\n    )\r\n    {\r\n      roundId=id;\r\n      answer=_random();\r\n      startedAt=block.timestamp;\r\n      updatedAt=block.timestamp;\r\n      answeredInRound=id;\r\n    }\r\n\r\n    event roundData(uint80 roundId,int256 answer, uint256 startedAt, uint256 updatedAt,uint80 answeredInRound);\r\n    function exec() public {\r\n      (\r\n        uint80 _roundId,\r\n        int256 _answer,\r\n        uint256 _startedAt,\r\n        uint256 _updatedAt,\r\n        uint80 _answeredInRound\r\n      )=latestRoundData();\r\n      emit roundData(_roundId, _answer, _startedAt, _updatedAt, _answeredInRound);\r\n\r\n    }\r\n\r\n}"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

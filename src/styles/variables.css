@@ -1,0 +1,13 @@
+:root {
+    --primary: #111822;
+    --text-primary: #BFBFBF;
+    --font-sans: "DM Sans", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --scrollbar-width: 14px;
+    --font-axiforma-book: "Axiforma-Book", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --font-axiforma-extrabold: "Axiforma-ExtraBold", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --font-fixture: "Fixture-Condensed-Medium", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --font-fixture-bold: "Fixture-Condensed-Bold", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --font-fixture-black: "Fixture-Condensed-Black", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --font-fixture-semibold: "Fixture-Condensed-SemiBold", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+    --font-fixture-extrabold: "Fixture-Condensed-ExtraBold", -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Helvetica', sans-serif;
+}

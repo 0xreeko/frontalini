@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Fixture-Condensed-Bold';
+    src: url('/fonts/Sudtipos_Fixture_Condensed_Bold.otf');
+}
+
+@font-face {
+    font-family: 'Fixture-Condensed-ExtraBold';
+    src: url('/fonts/Sudtipos_Fixture_Condensed_ExtraBold.otf');
+}
+
+@font-face {
+    font-family: 'Fixture-Condensed-SemiBold';
+    src: url('/fonts/Sudtipos_Fixture_Condensed_SemiBold.otf');
+}
+
+@font-face {
+    font-family: 'Fixture-Condensed-Medium';
+    src: url('/fonts/Sudtipos_Fixture_Condensed_Medium.otf');
+}
+
+@font-face {
+    font-family: 'Fixture-Condensed-Black';
+    src: url('/fonts/Sudtipos_Fixture_Condensed_Black.otf');
+}
+
+
+@font-face {
+    font-family: 'Axiforma-Book';
+    src: url('/fonts/Kastelov-Axiforma-Book.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Axiforma-ExtraBold';
+    src: url('/fonts/Kastelov-Axiforma-ExtraBold.otf');
+    font-weight: 800;
+    font-style: normal;
+}
